@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* CSS Document */
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 992px) and (max-width: 1200px) {  
+
+
+}
+
+/* width: 991px; */
+
+@media screen and (max-width: 61.938em) {
+
+}
+
+/* ipad-pro-media-query */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+    
+   
+}
+
+/* nest-hub-media-query */
+@media screen and (min-width:1024px) and (-webkit-min-device-pixel-ratio:0){
+  
+}
+/*============	Media 768Px Start ============ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+/*============ Media 300Px Star ============ */
+
+@media (max-width: 480px) {
+
+}
+
+/*============ Media 320Px Start ============ */
+
+@media (max-width: 320px) {
+  
+}
