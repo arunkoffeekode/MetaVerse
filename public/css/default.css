@@ -13,7 +13,7 @@ a{text-decoration:none; cursor:pointer; }
 a:hover,a:focus,a:visited{text-decoration:none; outline:none; }
 h1,h2,h3,h4,h5,h6{position:relative; font-family: 'Airbnb Cereal App'; font-weight:normal; margin:0px; background:none; }
 input,button,select,textarea{font-family: 'Airbnb Cereal App'}
-p{position:relative; line-height:normal; margin-bottom:0px; }
+p{position:relative; line-height:normal; margin-bottom:0px;font-family: 'Poppins', sans-serif; }
 ul,li{list-style:none; padding:0px; margin:0px; }
 form .form-control:focus{ border-color: #ced4da; box-shadow: none; }
 .top-margin-10{margin-top:10px; }

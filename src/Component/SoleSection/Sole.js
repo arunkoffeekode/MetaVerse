@@ -14,8 +14,8 @@ function Sole() {
                         </div>
                         <div className='col-lg-6 col-md-6 col-xl-6 col-xxl-6 col-sm-12'>
                             <div className='Sole-details'>
-                                <h2>Collect your Sole?</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur. Vitae magna purus massa magna justo a sit interdum dictum. Sodales aliquet ornare a consectetur egestas nulla. Ut quis egestas iaculis eu lorem enim. Risus scelerisque.</p>
+                                <h2 class="cursor-scale">Collect your Sole?</h2>
+                                <p class="cursor-scale small">Lorem ipsum dolor sit amet consectetur. Vitae magna purus massa magna justo a sit interdum dictum. Sodales aliquet ornare a consectetur egestas nulla. Ut quis egestas iaculis eu lorem enim. Risus scelerisque.</p>
                                 <button type='button' className='sole-btn'>Get your sole</button>
                             </div>
                         </div>

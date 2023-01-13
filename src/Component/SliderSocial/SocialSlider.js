@@ -51,9 +51,9 @@ function SocialSlider() {
                 <div className='row justify-content-center'>
                     <div className='col-lg-7 col-md-8 col-xl-7 col-xxl-7 col-sm-12'>
                         <div className='slider-title'>
-                            <h1>Enter into a massive
+                            <h1 class="cursor-scale">Enter into a massive
                                 social experience.</h1>
-                            <p>Social-e is a Decentralized Dating App, as a part of Social-e Dating Network. With great technological advantage and an AI driven system, Social-e aims to be the Top Dating App and Network in the World.</p>
+                            <p class="cursor-scale small">Social-e is a Decentralized Dating App, as a part of Social-e Dating Network. With great technological advantage and an AI driven system, Social-e aims to be the Top Dating App and Network in the World.</p>
                         </div>
                     </div>
                 </div>

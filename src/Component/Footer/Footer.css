@@ -39,7 +39,7 @@
 .subscribe .subscribe-box .subscribe-details .subscribe-form .searchbox-wrap {display: flex;background: #131D32;box-shadow: inset 10px 10px 20px #080f1f;border: 1px solid #2B2F53;margin-left: auto;border-radius: 10px;margin-right: auto;height: 66px;}
 .subscribe .subscribe-box .subscribe-details .subscribe-form .searchbox-wrap input {flex: 1 1;padding: 16px;font-size: 17px;font-weight: normal;width: 100%;border-radius: 10px;border-right: none;outline: none;border: none;color: #ffffff;box-shadow: inset 10px 10px 20px #080f1f;background: #131D32;}
 .subscribe .subscribe-box .subscribe-details .subscribe-form .searchbox-wrap button {padding-right: 10px; -webkit-border-top-right-radius: 10px;-webkit-border-bottom-right-radius: 10px;-moz-border-radius-topright: 10px;-moz-border-radius-bottomright: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;background:none;border: none;outline: none;cursor: pointer;cursor: hand;border-left: none;}
-.subscribe .subscribe-box .subscribe-details .subscribe-form .searchbox-wrap button span {padding:12px 25px;font-size: 18px;text-transform: uppercase;font-weight: 500 ;color: #fff;background-color: #FC1785;border-radius: 5px;border: 1px solid #FC1785;box-shadow: 10px 20px 20px #080F1F;}
+.subscribe .subscribe-box .subscribe-details .subscribe-form .searchbox-wrap button span {padding:8px 25px;font-size: 18px;text-transform: uppercase;font-weight: 500 ;color: #fff;background-color: #FC1785;border-radius: 5px;border: 1px solid #FC1785;box-shadow: 10px 20px 20px #080F1F;}
 .subscribe .subscribe-box .subscribe-details .subscribe-form .searchbox-wrap button span:hover {background-color:transparent;border: 1px solid #FC1785;box-shadow: none;}
 .subscribe .subscribe-box .icon-img{position: absolute;top: -127px;right: 0px;}
 .subscribe .subscribe-box .icon-img img{width:500px;}
@@ -51,17 +51,17 @@
 
 /*--------- app-section -------*/
 .app{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;}
-.app .app-box{padding: 50px;width: 100%;position: relative;float: left;border-radius: 20px;max-height: 492px;display: flex;align-items: center;margin-bottom: 200px; background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(11, 21, 41, 0.5) 0%, rgba(19, 29, 50, 0.29) 77.08%, rgba(19, 29, 50, 0.135) 100%);background-blend-mode: overlay, normal;box-shadow: inset 10px 10px 20px #080F1F;}
+.app .app-box{padding: 50px;width: 100%;position: relative;float: left;border-radius: 20px;max-height: 450px;background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(11, 21, 41, 0.5) 0%, rgba(19, 29, 50, 0.29) 77.08%, rgba(19, 29, 50, 0.135) 100%);background-blend-mode: overlay, normal;box-shadow: inset 10px 10px 20px #080F1F;margin-bottom: 30px;}
 .app .app-box .app-detils{width: 100%;position: relative;float: left;}
 .app .app-box .app-detils h2{font-size: 25px;font-weight: 900;text-align: left;text-transform: uppercase;line-height: 40px;color: #ffffff;margin-bottom: 20px;letter-spacing: 0.05em;}
 .app .app-box .app-detils p{font-size: 17px;font-weight: normal;text-align: left;letter-spacing: 0.02em;color: #ffffff;line-height: 27px;}
 .app .app-box .app-detils .google-app{width: 100%;position: relative;float: left;margin-top: 20px;display: flex;}
 .app .app-box .app-detils .google-app .app-btn{background: #131D32;box-shadow: inset 10px 10px 20px #080F1F;border-radius: 5px;display: flex;padding: 10px 20px;border: 1px solid #2B2F53;align-items: center;margin-right: 20px;margin-bottom: 20px;justify-content: center;}
 .app .app-box .app-detils .google-app .app-btn img{width: 35px;margin-right: 10px;}
-.app .app-box .app-detils .google-app .app-btn p{font-size: 13px;font-weight: 100;text-align: left;text-transform: uppercase;color: #ffffff;line-height: 23px;}
+.app .app-box .app-detils .google-app .app-btn p{font-size: 13px;font-weight: normal;text-align: left;text-transform: uppercase;color: #ffffff;line-height: 23px;}
 .app .app-box .app-detils .google-app .app-btn .app-name{font-size: 18px;font-weight: normal;text-align: left;text-transform: capitalize;color: #ffffff;}
 
-.app .app-box .mobile-img{width: 100%;position: relative;float: left;margin-top: 180px; overflow: hidden;}
+.app .app-box .mobile-img{width: 100%;position: relative;float: left;text-align: center;margin: 0 auto;}
 /* .app .app-box .mobile-img iframe{margin: 0 auto;position: absolute;right: 20%;width: 500px;height: 500px;top: 20px;left: 0;right: 0;} */
 .app-bg{background: url(/public/images/app-bg.png)center center;background-size: cover;content: "";position: absolute;top: 0px;right: 5px;width: 375px;height: 290px;}
 
@@ -70,10 +70,10 @@
 .app-title p{font-size: 17px;font-weight: normal;text-align: center;line-height: 27px;color: #fff;}
 .app-logo{width: 100%;margin-top: -26px;text-align: center;}
 .app-logo img{width: 215px;}
-
+.app-padding{padding: 50px;width: 100%;float: left;}
 
 /*------- watch-section ---------*/
-.watch-now{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;}
+.watch-now{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;margin-top: 50px;}
 .watch-box{width: 100%;position: relative;float: left;background:radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(11, 21, 41, 0.5) 0%, rgba(19, 29, 50, 0.29) 77.08%, rgba(19, 29, 50, 0.135) 100%);border: 1px solid #2B2F53;box-shadow: inset 10px 10px 20px #080F1F;border-radius: 30px;padding: 30px;}
 .watch-now .watch-title{letter-spacing: 0.02em;font-size: 30px;font-weight:200;text-align: center;line-height: 40px;color: #ffffff;text-transform: uppercase;margin-bottom: 35px;}
 .watch-now .watch-title strong{font-weight: 900;font-size: 32px;}
@@ -122,9 +122,10 @@
 
 
 
-
     /* responsive.css */
 @media screen and (max-width: 61.938em) {
+  .app-padding{padding: 10px;}
+  .app .app-box .app-detils h2{font-size: 22px;line-height: 33px;}
   .app .app-box{margin-bottom: 0px;}
   .app-bg{display: none;}
   .app-logo{display: none;}
