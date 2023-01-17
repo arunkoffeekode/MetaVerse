@@ -8,10 +8,13 @@ import Sole from '../SoleSection/Sole'
 import SocialSlider from '../SliderSocial/SocialSlider'
 import Slider1 from '../Chatslider/Slider1'
 import Tilt from 'react-parallax-tilt';
+import Topslider from '../TopSlider/Topslider'
+import Header from '../Header/Header'
 function Footer() {
     return (
         <div>
-
+            <Topslider />
+            <Header></Header>
             <SocialSlider></SocialSlider>
 
             <section className='watch-now'>
@@ -35,7 +38,7 @@ function Footer() {
                     </div>
                 </div>
             </section>
-<Slider1></Slider1>
+            <Slider1></Slider1>
             <section className="app">
                 <div className='container'>
                     <div className='row mb-3 justify-content-center'>
@@ -56,35 +59,35 @@ function Footer() {
                                 <div className='row app-center'>
                                     <div className='col-lg-7 col-md-12 col-sm-12 col-xl-7 col-xxl-7'>
                                         <div className='app-padding'>
-                                        <div className='app-detils'>
-                                            <h2 class="cursor-scale">download our app</h2>
-                                            <p class="cursor-scale small">Metaverse to provide a comprehensive experience for a human and the whole world for anyone and everyone. Explore the virtual world and start your journey with your <strong>Social-e</strong> </p>
-                                            <div className='google-app'>
-                                                <button className='app-btn' type='button'>
-                                                    <img src='images/playstore.png'></img>
-                                                    <div className='d-block'>
-                                                        <p>GET IT ON</p>
-                                                        <div className='app-name'>Google Play</div>
-                                                    </div>
-                                                </button>
-                                                <button className='app-btn' type='button'>
-                                                    <img src='images/apple.png'></img>
-                                                    <div className='d-block'>
-                                                        <p>Download on the</p>
-                                                        <div className='app-name'>App Store</div>
-                                                    </div>
-                                                </button>
+                                            <div className='app-detils'>
+                                                <h2 class="cursor-scale">download our app</h2>
+                                                <p class="cursor-scale small">Metaverse to provide a comprehensive experience for a human and the whole world for anyone and everyone. Explore the virtual world and start your journey with your <strong>Social-e</strong> </p>
+                                                <div className='google-app'>
+                                                    <button className='app-btn' type='button'>
+                                                        <img src='images/playstore.png'></img>
+                                                        <div className='d-block'>
+                                                            <p>GET IT ON</p>
+                                                            <div className='app-name'>Google Play</div>
+                                                        </div>
+                                                    </button>
+                                                    <button className='app-btn' type='button'>
+                                                        <img src='images/apple.png'></img>
+                                                        <div className='d-block'>
+                                                            <p>Download on the</p>
+                                                            <div className='app-name'>App Store</div>
+                                                        </div>
+                                                    </button>
+                                                </div>
                                             </div>
-                                        </div>
                                         </div>
                                     </div>
                                     <div className='col-lg-5 col-md-6 col-xl-5 col-xxl-5 col-sm-12'>
 
                                         <div className='mobile-img'>
-                                        <Tilt>
-                                            <video muted autoPlay playsInline loop preload="auto" width={'220px'}>
-                                                <source type="video/mp4" src="images/Mobile-video.mp4" />
-                                            </video>
+                                            <Tilt>
+                                                <video muted autoPlay playsInline loop preload="auto" width={'220px'}>
+                                                    <source type="video/mp4" src="images/Mobile-video.mp4" />
+                                                </video>
                                             </Tilt>
                                             {/* <div class="smartphone">
                                                 <div class="content">
@@ -99,7 +102,7 @@ function Footer() {
                     </div>
                 </div>
             </section>
-            
+
             <Sole></Sole>
             <section className='subscribe'>
                 <div className='container'>

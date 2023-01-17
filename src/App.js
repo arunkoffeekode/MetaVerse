@@ -4,7 +4,20 @@ import gsap from "gsap";
 import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+  window.onscroll = function() {myFunction()};
 
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+}, [])
   useEffect(() => {
     let cursor = document.querySelector('.cursor');
     let cursorScale = document.querySelectorAll('.cursor-scale');
