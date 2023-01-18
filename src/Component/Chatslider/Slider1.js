@@ -39,7 +39,7 @@ function Slider1() {
             },
             1000: {
                 items: 3,
-                stagePadding: 150,
+                // stagePadding: 150,
                 nav: true,
                 loop: true,
             },
@@ -49,88 +49,92 @@ function Slider1() {
 
     return (
         <div>
-            <section className='social-slider-chat'>
-                <div className='row'>
-                    <div className='col-lg-12 col-md-12 col-xl-12 col-xxl-12 col-sm-12'>
-                        <OwlCarousel className='owl-carousel owl-theme' loop items={1} nav autoplay={true} {...options1}>
+            <div className='c-section'>
+                <section className='social-slider-chat'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-lg-12 col-md-12 col-xl-12 col-xxl-12 col-sm-12'>
+                                <OwlCarousel className='owl-carousel owl-theme' loop items={1} nav autoplay={true} {...options1}>
 
-                            <div class="item">
-                                <div className='social-box-chat'>
-                                    <div className='ctr'>
-                                        <img src={cloud} alt="" />
+                                    <div class="item">
+                                        <div className='social-box-chat'>
+                                            <div className='ctr'>
+                                                <img src={cloud} alt="" />
+                                            </div>
+
+                                            <h6 class="cursor-scale">Security and safety</h6>
+                                            <div className='slider-item-details'>
+                                                <p class="cursor-scale small">Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
+                                            </div>
+                                        </div>
                                     </div>
 
-                                    <h6>Security and safety</h6>
-                                    <div className='slider-item-details'>
-                                        <p>Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
+                                    <div class="item">
+                                        <div className='social-box-chat'>
+                                            <div className='ctr'>
+                                                <img src={cloud1} alt="" />
+                                            </div>
+                                            <h6 class="cursor-scale">Conection</h6>
+                                            <div className='slider-item-details'>
+                                                <p class="cursor-scale small">Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+
+                                    <div class="item">
+                                        <div className='social-box-chat'>
+                                            <div className='ctr'>
+                                                <img src={cloud2} alt="" />
+                                            </div>
+                                            <h6 class="cursor-scale">Technology</h6>
+                                            <div className='slider-item-details'>
+                                                <p class="cursor-scale small">Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div className='social-box-chat'>
+                                            <div className='ctr'>
+                                                <img src={cloud3} alt="" />
+                                            </div>
+                                            <h6 class="cursor-scale">Plan your visit</h6>
+                                            <div className='slider-item-details'>
+                                                <p class="cursor-scale small">Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div className='social-box-chat'>
+                                            <div className='ctr'>
+                                                <img src={cloud1} alt="" />
+                                            </div>
+                                            <h6 class="cursor-scale">Meet your avatar</h6>
+                                            <div className='slider-item-details'>
+                                                <p class="cursor-scale small">Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div className='social-box-chat'>
+                                            <div className='ctr'>
+                                                <img src={cloud4} alt="" />
+                                            </div>
+                                            <h6 class="cursor-scale">spend fantasy in the garden</h6>
+                                            <div className='slider-item-details'>
+                                                <p class="cursor-scale small">Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </OwlCarousel>
                             </div>
-
-                            <div class="item">
-                                <div className='social-box-chat'>
-                                    <div className='ctr'>
-                                        <img src={cloud1} alt="" />
-                                    </div>
-                                    <h6>Conection</h6>
-                                    <div className='slider-item-details'>
-                                        <p>Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div className='social-box-chat'>
-                                    <div className='ctr'>
-                                        <img src={cloud2} alt="" />
-                                    </div>
-                                    <h6>Technology</h6>
-                                    <div className='slider-item-details'>
-                                        <p>Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div className='social-box-chat'>
-                                    <div className='ctr'>
-                                        <img src={cloud3} alt="" />
-                                    </div>
-                                    <h6>Plan your visit</h6>
-                                    <div className='slider-item-details'>
-                                        <p>Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div className='social-box-chat'>
-                                    <div className='ctr'>
-                                        <img src={cloud1} alt="" />
-                                    </div>
-                                    <h6>Meet your avatar</h6>
-                                    <div className='slider-item-details'>
-                                        <p>Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div className='social-box-chat'>
-                                    <div className='ctr'>
-                                        <img src={cloud4} alt="" />
-                                    </div>
-                                    <h6>spend fantasy in the garden</h6>
-                                    <div className='slider-item-details'>
-                                        <p>Lorem ipsum dolor sit amet consectetur. Urna in tellus suspendisse ut sollicitudin quis. Viverra ac velit urna leo sodales viverra arcu enim. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </OwlCarousel>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     )
 }

@@ -47,85 +47,87 @@ function SocialSlider() {
 
     return (
         <div>
-            <section className='social-slider'>
-                <div className='row justify-content-center'>
-                    <div className='col-lg-7 col-md-8 col-xl-7 col-xxl-7 col-sm-12'>
-                        <div className='slider-title'>
-                            <h1 class="cursor-scale">Enter into a massive
-                                social experience.</h1>
-                            <p class="cursor-scale small">Social-e is a Decentralized Dating App, as a part of Social-e Dating Network. With great technological advantage and an AI driven system, Social-e aims to be the Top Dating App and Network in the World.</p>
+            <div className='c-section'>
+                <section className='social-slider d-block'>
+                    <div className='row justify-content-center'>
+                        <div className='col-lg-7 col-md-8 col-xl-7 col-xxl-7 col-sm-12'>
+                            <div className='slider-title'>
+                                <h1 class="cursor-scale">Enter into a massive
+                                    social experience.</h1>
+                                <p class="cursor-scale small">Social-e is a Decentralized Dating App, as a part of Social-e Dating Network. With great technological advantage and an AI driven system, Social-e aims to be the Top Dating App and Network in the World.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div className='row'>
-                    <div className='col-lg-12 col-md-12 col-xl-12 col-xxl-12 col-sm-12'>
-                        <OwlCarousel className='owl-carousel owl-theme' loop items={1} nav autoplay={true} {...options1}>
+                    <div className='row'>
+                        <div className='col-lg-12 col-md-12 col-xl-12 col-xxl-12 col-sm-12'>
+                            <OwlCarousel className='owl-carousel owl-theme' loop items={1} nav autoplay={true} {...options1}>
 
-                            <div class="item">
-                                <div className='social-box'>
-                                    <img src={slider1} alt="" />
-                                    <div className='slider-item-details'>
-                                        <h6>spend fantasy in the garden</h6>
-                                        <p>Going to a park and doing something together is one of the most beautiful days.</p>
+                                <div class="item">
+                                    <div className='social-box'>
+                                        <img src={slider1} alt="" />
+                                        <div className='slider-item-details'>
+                                            <h6 class="cursor-scale">spend fantasy in the garden</h6>
+                                            <p class="cursor-scale small">Going to a park and doing something together is one of the most beautiful days.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="item">
-                                <div className='social-box'>
-                                    <img src={slider2} alt="" />
-                                    <div className='slider-item-details'>
-                                        <h6>spend fantasy in the garden</h6>
-                                        <p>Going to a park and doing something together is one of the most beautiful days.</p>
+                                <div class="item">
+                                    <div className='social-box'>
+                                        <img src={slider2} alt="" />
+                                        <div className='slider-item-details'>
+                                            <h6 class="cursor-scale">spend fantasy in the garden</h6>
+                                            <p class="cursor-scale small">Going to a park and doing something together is one of the most beautiful days.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="item">
-                                <div className='social-box'>
-                                    <img src={slider3} alt="" />
-                                    <div className='slider-item-details'>
-                                        <h6>spend fantasy in the garden</h6>
-                                        <p>Going to a park and doing something together is one of the most beautiful days.</p>
+                                <div class="item">
+                                    <div className='social-box'>
+                                        <img src={slider3} alt="" />
+                                        <div className='slider-item-details'>
+                                            <h6 class="cursor-scale">spend fantasy in the garden</h6>
+                                            <p class="cursor-scale small">Going to a park and doing something together is one of the most beautiful days.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="item">
-                                <div className='social-box'>
-                                    <img src={slider4} alt="" />
-                                    <div className='slider-item-details'>
-                                        <h6>spend fantasy in the garden</h6>
-                                        <p>Going to a park and doing something together is one of the most beautiful days.</p>
+                                <div class="item">
+                                    <div className='social-box'>
+                                        <img src={slider4} alt="" />
+                                        <div className='slider-item-details'>
+                                            <h6 class="cursor-scale">spend fantasy in the garden</h6>
+                                            <p class="cursor-scale small">Going to a park and doing something together is one of the most beautiful days.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="item">
-                                <div className='social-box'>
-                                    <img src={slider5} alt="" />
-                                    <div className='slider-item-details'>
-                                        <h6>spend fantasy in the garden</h6>
-                                        <p>Going to a park and doing something together is one of the most beautiful days.</p>
+                                <div class="item">
+                                    <div className='social-box'>
+                                        <img src={slider5} alt="" />
+                                        <div className='slider-item-details'>
+                                            <h6 class="cursor-scale">spend fantasy in the garden</h6>
+                                            <p class="cursor-scale small">Going to a park and doing something together is one of the most beautiful days.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="item">
-                                <div className='social-box'>
-                                    <img src={slider1} alt="" />
-                                    <div className='slider-item-details'>
-                                        <h6>spend fantasy in the garden</h6>
-                                        <p>Going to a park and doing something together is one of the most beautiful days.</p>
+                                <div class="item">
+                                    <div className='social-box'>
+                                        <img src={slider1} alt="" />
+                                        <div className='slider-item-details'>
+                                            <h6 class="cursor-scale">spend fantasy in the garden</h6>
+                                            <p class="cursor-scale small">Going to a park and doing something together is one of the most beautiful days.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                        </OwlCarousel>
+                            </OwlCarousel>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     )
 }

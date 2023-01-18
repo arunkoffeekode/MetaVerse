@@ -4,7 +4,7 @@
 .copy-wright{width: 100%;position: relative;float: left;background: #FC1785;padding: 20px 0px 20px 0px;text-align: center;}
 .copy-wright p{font-size: 18px;font-weight: 500;text-align: center;color: #ffffff;line-height: 28px;}
 
-.footer{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;}
+.footer{width: 100%;position: relative;float: left;padding: 30px 0px 0px 0px;}
 .footer .footer-content{width: 100%;position: relative;float: left;}
 .footer .footer-content .footer-title{width: 100%;text-align: center;margin-bottom: 20px;}
 .footer .footer-content .footer-title .title{font-size: 65px;font-weight: 900;text-align: center;line-height: 77px;color: #ffffff;text-transform: uppercase;letter-spacing: 0.02em;}
@@ -12,7 +12,7 @@
 .footer .footer-content .footer-logo{margin: 20px 0px 20px 0px;text-align: center;width: 100%;}
 .footer .footer-content .footer-logo img{width: 300px;}
 
-.footer .footer-content .socialfoot{width: 100%; padding: 15px 0;text-align: center;}
+.footer .footer-content .socialfoot{width: 100%; padding: 15px 0 30px 0px;text-align: center;}
 .footer .footer-content .socialfoot ul{list-style: outside none none; margin: 0; padding: 0;}
 .footer .footer-content .socialfoot ul li{display: inline-block; margin: 0 14px 10px 0px;}
 .footer .footer-content .socialfoot ul li a{background: #131D32;width: 52px;height: 52px;border: 1px solid #2B2F53;box-shadow: inset 10px 10px 20px #080F1F;border-radius: 5px;}
@@ -73,7 +73,7 @@
 .app-padding{padding: 50px;width: 100%;float: left;}
 
 /*------- watch-section ---------*/
-.watch-now{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;margin-top: 50px;}
+.watch-now{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;margin-top: 90px;}
 .watch-box{width: 100%;position: relative;float: left;background:radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(11, 21, 41, 0.5) 0%, rgba(19, 29, 50, 0.29) 77.08%, rgba(19, 29, 50, 0.135) 100%);border: 1px solid #2B2F53;box-shadow: inset 10px 10px 20px #080F1F;border-radius: 30px;padding: 30px;}
 .watch-now .watch-title{letter-spacing: 0.02em;font-size: 30px;font-weight:200;text-align: center;line-height: 40px;color: #ffffff;text-transform: uppercase;margin-bottom: 35px;}
 .watch-now .watch-title strong{font-weight: 900;font-size: 32px;}
@@ -124,6 +124,9 @@
 
     /* responsive.css */
 @media screen and (max-width: 61.938em) {
+  .c-section{height: auto;scroll-snap-align: inherit;}
+  .c-section1{height: auto;scroll-snap-align: inherit;}
+  .watch-now{margin-top: 10px;}
   .app-padding{padding: 10px;}
   .app .app-box .app-detils h2{font-size: 22px;line-height: 33px;}
   .app .app-box{margin-bottom: 0px;}

@@ -1,4 +1,5 @@
-.carousel-item{transform: scale(1);max-height: 100vh;min-height: calc(100vh-180px);overflow: hidden;background: #131D32;}
+.carousel{transform: scale(1);max-height: 100vh;min-height: calc(100vh-180px);overflow: hidden;background: #131D32;}
+/* .carousel-item{transform: scale(1);max-height: 100vh;min-height: calc(100vh-180px);overflow: hidden;background: #131D32;} */
 
 .carousel-caption{right: 0%;text-align: left;top: 30%;left: 10%;}
 .h1-responsive{letter-spacing: 0.02em;font-size: 54px;font-weight: normal;text-align: left;text-transform: uppercase;line-height: 60px;color: #ffffff;margin-bottom: 20px;}

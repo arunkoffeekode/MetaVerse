@@ -19,6 +19,7 @@ function Header() {
     }, [])
     return (
         <div>
+          <div className='c-section' style={{height:'auto'}}>
             <div className='container-fluid' >
                 <div id="navbar">
                     <div className='row'>
@@ -51,6 +52,7 @@ function Header() {
                     </div>
 
                 </div>
+            </div>
             </div>
         </div>
     )

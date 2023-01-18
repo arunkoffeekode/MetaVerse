@@ -2,22 +2,10 @@ import Footer from "./Component/Footer/Footer";
 import Sole from "./Component/SoleSection/Sole";
 import gsap from "gsap";
 import { useEffect } from "react";
-
+import Header from "./Component/Header/Header";
+import Login from "./Component/Login/Login";
 function App() {
-  useEffect(() => {
-  window.onscroll = function() {myFunction()};
 
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-}, [])
   useEffect(() => {
     let cursor = document.querySelector('.cursor');
     let cursorScale = document.querySelectorAll('.cursor-scale');
@@ -61,8 +49,11 @@ function App() {
     <>
       <div class="cursor"></div>
       {/* <Sole></Sole> */}
-      <Footer></Footer>
-
+      {/* <Header></Header> */}
+      <Login></Login>
+      <main class="c-main">
+        <Footer></Footer>
+      </main>
     </>
   );
 }

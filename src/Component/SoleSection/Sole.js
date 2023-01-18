@@ -4,7 +4,7 @@ import sole from '../../img/sole.png'
 function Sole() {
     return (
         <div>
-            <section className='Sole'>
+            <section className='Sole c-section'>
                 <div className='container'>
                     <div className='row align'>
                         <div className='col-lg-6 col-md-6 col-xl-6 col-xxl-6 col-sm-12'>
