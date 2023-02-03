@@ -1,0 +1,17 @@
+.avtar-section{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;}
+.avtar-section .avtar-box{min-height: 600px;width: 100%;float: left;position: relative;;background: #131D32;border: 1px solid #2B2F53;box-shadow: inset 10px 10px 20px #080F1F;border-radius: 17.9528px;padding: 10px;}
+.avtar-section .avtar-box .avtar-inner-box{min-height: 600px;width: 100%;position: relative;float: left;background: #131D32;border: 1px solid #2B2F53;box-shadow: inset 10px 10px 20px #080F1F;border-radius: 19.0874px;padding: 20px;background: url(/public/images/avtar-bg.jpg)no-repeat center top;;background-size: cover;}
+
+.fp-nav {position: absolute;z-index: 100;opacity: 1;width: 35px;background: #FC1785;padding: 5px;border-radius: 5px;top:33%}
+.fp-nav ul{margin: 0px;padding: 0px;}
+.fp-nav ul li{display: block;    margin: 10px 0px 14px 0px;}
+.fp-nav ul li a{width: 20px;height: 20px;color: #ffffff;padding: 3px;border-radius: 4px;}
+.fp-nav ul li a i{font-size: 20px;}
+.fp-nav ul li:last-child{margin-bottom: 10px;}
+
+.avtar-courasel{float: right;width: 15%;position: relative;overflow-y: scroll;}
+.avtar-courasel ul{margin: 0px;padding: 0px;}
+.avtar-courasel ul li{margin-bottom: 20px;}
+.avtar-courasel ul li:last-child{margin-bottom: 0px;}
+.avtar-courasel ul li .courasel-inner-box{border: 1px solid#FC1785;}
+.avtar-courasel ul li .courasel-inner-box img{width: 100%;}

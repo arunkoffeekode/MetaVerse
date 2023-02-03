@@ -14,7 +14,7 @@ function SocialSlider() {
         items: 1,
         // stagePadding: 150,
         stageElement: 'div',
-        margin: 30,
+        margin: 28,
         responsiveClass: true,
         autoplay: true,
         center: true,
